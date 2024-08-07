@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+.navbar{
+    height: 65px;
+    background-color: #f1e6d4;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* LOGO */
+.nav-logo{
+    height: 65px;
+    width: 250px;
+}
+
+.logo{
+    background-image: url("logo1.jpg");
+    background-size: cover;
+    height: 65px;
+    width: 100%;
+}
+
+/* .border{
+   text-decoration: wavy;
+   
+}
+
+.border:hover{
+
+} */
+
+/* SEARCH BAR */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 45px;
+    border-radius: 15px;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1.25rem;
+    border: none;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+   
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(199, 62, 26, 0.75);
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    /* border-radius: 50%; */
+    color:#0f1111 ;
+}
+
+.nav-search:hover{
+        border: 2px solid rgb(199, 62, 26, 0.75);
+}
+
+/* find events and create events */
+
+a{
+    font-size: 1.25rem;
+    color: black;
+    text-decoration: dotted;
+}
+
+/* create events */
+
+/* button{
+    background-color: rgb(199, 62, 26, 0.75);
+    border-radius: 5px;
+
+} */
